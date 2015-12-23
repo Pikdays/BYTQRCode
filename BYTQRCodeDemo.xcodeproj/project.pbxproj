@@ -13,6 +13,8 @@
 		503946411C2A504D00C101E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5039463F1C2A504D00C101E9 /* Main.storyboard */; };
 		503946431C2A504D00C101E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503946421C2A504D00C101E9 /* Assets.xcassets */; };
 		503946461C2A504D00C101E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503946441C2A504D00C101E9 /* LaunchScreen.storyboard */; };
+		5039466D1C2A507E00C101E9 /* BYTQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5039466A1C2A507E00C101E9 /* BYTQRCodeView.m */; };
+		5039466E1C2A507E00C101E9 /* BYTShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5039466C1C2A507E00C101E9 /* BYTShadowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		503946421C2A504D00C101E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		503946451C2A504D00C101E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		503946471C2A504D00C101E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503946691C2A507E00C101E9 /* BYTQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTQRCodeView.h; sourceTree = "<group>"; };
+		5039466A1C2A507E00C101E9 /* BYTQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTQRCodeView.m; sourceTree = "<group>"; };
+		5039466B1C2A507E00C101E9 /* BYTShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTShadowView.h; sourceTree = "<group>"; };
+		5039466C1C2A507E00C101E9 /* BYTShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTShadowView.m; sourceTree = "<group>"; };
+		5C349A5F0CF01B3ECAD7909C /* BYTQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTQRCode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 		503946351C2A504D00C101E9 /* BYTQRCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				503946681C2A507E00C101E9 /* BYTQRCode */,
 				503946391C2A504D00C101E9 /* AppDelegate.h */,
 				5039463A1C2A504D00C101E9 /* AppDelegate.m */,
 				5039463C1C2A504D00C101E9 /* ViewController.h */,
@@ -77,6 +85,18 @@
 				503946371C2A504D00C101E9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		503946681C2A507E00C101E9 /* BYTQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				503946691C2A507E00C101E9 /* BYTQRCodeView.h */,
+				5039466A1C2A507E00C101E9 /* BYTQRCodeView.m */,
+				5039466B1C2A507E00C101E9 /* BYTShadowView.h */,
+				5039466C1C2A507E00C101E9 /* BYTShadowView.m */,
+				5C349A5F0CF01B3ECAD7909C /* BYTQRCode.h */,
+			);
+			path = BYTQRCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +171,8 @@
 			files = (
 				5039463E1C2A504D00C101E9 /* ViewController.m in Sources */,
 				5039463B1C2A504D00C101E9 /* AppDelegate.m in Sources */,
+				5039466E1C2A507E00C101E9 /* BYTShadowView.m in Sources */,
+				5039466D1C2A507E00C101E9 /* BYTQRCodeView.m in Sources */,
 				503946381C2A504D00C101E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
